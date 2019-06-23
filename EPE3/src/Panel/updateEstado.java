@@ -21,6 +21,7 @@ public class updateEstado extends javax.swing.JFrame {
         g=new Gestion();
         configurarRBEstado2();
         setIconImage(new ImageIcon(getClass().getResource("../imagenes/icono.png")).getImage());
+        this.setResizable(false);
     }
 
      private void configurarRBEstado2(){

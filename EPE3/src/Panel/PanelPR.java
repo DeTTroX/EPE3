@@ -25,6 +25,7 @@ public class PanelPR extends javax.swing.JFrame {
         configurarRBTipo();
         g = new Gestion();
         setIconImage(new ImageIcon(getClass().getResource("../imagenes/icono.png")).getImage());
+        this.setResizable(false);
     }
 
     private void configurarRBEstado(){

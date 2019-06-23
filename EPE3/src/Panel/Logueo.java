@@ -20,6 +20,7 @@ public class Logueo extends javax.swing.JFrame {
     public Logueo() {
         initComponents();
         setIconImage(new ImageIcon(getClass().getResource("../imagenes/icono.png")).getImage());
+        this.setResizable(false);
     }
 
     /**

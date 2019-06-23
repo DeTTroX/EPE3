@@ -17,6 +17,7 @@ public class updateObservacion extends javax.swing.JFrame {
         initComponents();
         g = new Gestion();
         setIconImage(new ImageIcon(getClass().getResource("../imagenes/icono.png")).getImage());
+        this.setResizable(false);
     }
 
     /**
