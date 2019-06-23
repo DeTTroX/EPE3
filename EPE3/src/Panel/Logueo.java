@@ -21,6 +21,7 @@ public class Logueo extends javax.swing.JFrame {
         initComponents();
         setIconImage(new ImageIcon(getClass().getResource("../imagenes/icono.png")).getImage());
         this.setResizable(false);
+        this.setLocationRelativeTo(null);
     }
 
     /**
@@ -77,7 +78,7 @@ public class Logueo extends javax.swing.JFrame {
         getContentPane().add(btningresar, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 220, -1, -1));
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/login2.jpg"))); // NOI18N
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

@@ -26,6 +26,7 @@ public class PanelPR extends javax.swing.JFrame {
         g = new Gestion();
         setIconImage(new ImageIcon(getClass().getResource("../imagenes/icono.png")).getImage());
         this.setResizable(false);
+        this.setLocationRelativeTo(null);
     }
 
     private void configurarRBEstado(){
@@ -148,6 +149,7 @@ public class PanelPR extends javax.swing.JFrame {
         jLabel25 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("MusYamat");
         setBackground(new java.awt.Color(204, 153, 0));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -690,7 +692,7 @@ public class PanelPR extends javax.swing.JFrame {
 
         DATOS.addTab("DATOS_PRINCIPALES", jPanel5);
 
-        getContentPane().add(DATOS, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1013, 600));
+        getContentPane().add(DATOS, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 1013, 600));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

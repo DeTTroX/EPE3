@@ -22,6 +22,7 @@ public class updateTipo extends javax.swing.JFrame {
          g = new Gestion();
          setIconImage(new ImageIcon(getClass().getResource("../imagenes/icono.png")).getImage());
          this.setResizable(false);
+         this.setLocationRelativeTo(null);
     }
     private void configurarRBTipo(){
 
