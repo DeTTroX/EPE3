@@ -8,6 +8,7 @@ package Panel;
 import BaseDeDatos.Gestion;
 import java.sql.DriverManager;
 import javax.swing.ButtonGroup;
+import javax.swing.ImageIcon;
 /**
  *
  * @author DeTTroX
@@ -19,6 +20,7 @@ public class updateEstado extends javax.swing.JFrame {
         initComponents();
         g=new Gestion();
         configurarRBEstado2();
+        setIconImage(new ImageIcon(getClass().getResource("../imagenes/icono.png")).getImage());
     }
 
      private void configurarRBEstado2(){

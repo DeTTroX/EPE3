@@ -5,6 +5,8 @@
  */
 package Panel;
 
+import javax.swing.ImageIcon;
+
 /**
  *
  * @author DeTTroX
@@ -16,6 +18,7 @@ public class Quienes extends javax.swing.JFrame {
      */
     public Quienes() {
         initComponents();
+        setIconImage(new ImageIcon(getClass().getResource("../imagenes/icono.png")).getImage());
     }
 
     /**

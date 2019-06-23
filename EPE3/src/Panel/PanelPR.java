@@ -7,6 +7,7 @@ package Panel;
 
 import BaseDeDatos.Gestion;
 import javax.swing.ButtonGroup;
+import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 
 /**
@@ -23,6 +24,7 @@ public class PanelPR extends javax.swing.JFrame {
         configurarRBNacion();
         configurarRBTipo();
         g = new Gestion();
+        setIconImage(new ImageIcon(getClass().getResource("../imagenes/icono.png")).getImage());
     }
 
     private void configurarRBEstado(){

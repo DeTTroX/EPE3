@@ -7,6 +7,7 @@ package Panel;
 
 import BaseDeDatos.Gestion;
 import java.sql.DriverManager;
+import javax.swing.ImageIcon;
 
 public class updateObservacion extends javax.swing.JFrame {
 
@@ -15,6 +16,7 @@ public class updateObservacion extends javax.swing.JFrame {
     public updateObservacion() {
         initComponents();
         g = new Gestion();
+        setIconImage(new ImageIcon(getClass().getResource("../imagenes/icono.png")).getImage());
     }
 
     /**

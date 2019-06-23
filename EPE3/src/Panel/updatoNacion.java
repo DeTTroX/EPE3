@@ -7,6 +7,7 @@ package Panel;
 
 import javax.swing.ButtonGroup;
 import BaseDeDatos.Gestion;
+import javax.swing.ImageIcon;
 
 public class updatoNacion extends javax.swing.JFrame {
 
@@ -16,6 +17,7 @@ public class updatoNacion extends javax.swing.JFrame {
         initComponents();
         configurarRBNacion();
         g=new Gestion();
+        setIconImage(new ImageIcon(getClass().getResource("../imagenes/icono.png")).getImage());
     }
 
       private void configurarRBNacion(){
