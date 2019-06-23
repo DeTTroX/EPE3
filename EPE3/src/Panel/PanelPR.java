@@ -817,7 +817,8 @@ public class PanelPR extends javax.swing.JFrame {
 
     private void AceptActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AceptActionPerformed
      
-        
+    Quienes q=new Quienes();
+    q.setVisible(true);
         
     }//GEN-LAST:event_AceptActionPerformed
 
