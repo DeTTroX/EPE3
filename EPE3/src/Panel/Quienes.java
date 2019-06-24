@@ -69,13 +69,21 @@ public class Quienes extends javax.swing.JFrame {
         jLabel5.setText("Zianya Castro");
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 170, -1, -1));
 
+<<<<<<< Updated upstream
         jButton1.setText("Aceptar");
+=======
+        jButton1.setText("aceptar");
+>>>>>>> Stashed changes
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
+<<<<<<< Updated upstream
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 200, -1, -1));
+=======
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 200, -1, -1));
+>>>>>>> Stashed changes
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/tanque.jpg"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 500, 240));

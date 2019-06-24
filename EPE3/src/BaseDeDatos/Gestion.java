@@ -219,17 +219,18 @@ public class Gestion {
                 String FONO2=JOptionPane.showInputDialog(null," ingrese nuevo telefono");
                     sql="UPDATE SEDE "+
                     "SET TELEFONO = '"+FONO2+"'"+
-                    "WHERE WHERE ID_SEDE = '"+FONO1+"'";
+                    "WHERE ID_SEDE = '"+FONO1+"'";
                     sentencia.executeUpdate(sql);
                     sentencia.close();
                     conexion.close();
+                    break;
                 
             case 3:   
                 String CORREO = JOptionPane.showInputDialog(null," ingrese ID de correo a modificar");
                 String CORREO2 = JOptionPane.showInputDialog(null," ingrese nuevo correo");
-                    sql="UPDATE SEDDE "+
-                    "SET CORREO = '"+CORREO+"'"+
-                    "WHERE WHERE ID_SEDE = '"+CORREO+"'";
+                    sql="UPDATE SEDE "+
+                    "SET CORREO = '"+CORREO2+"'"+
+                    "WHERE ID_SEDE = '"+CORREO+"'";
                     sentencia.executeUpdate(sql);
                     sentencia.close();
                     conexion.close();
@@ -239,7 +240,6 @@ public class Gestion {
     }catch(ClassNotFoundException | SQLException e){
         JOptionPane.showMessageDialog(null,"Error!! "+e.getMessage());
     }
-      JOptionPane.showMessageDialog(null,"Registro actualizado con exito¡");
 }
       public void deleteDatosTabla1(String DEL){
        try{
@@ -322,12 +322,12 @@ public class Gestion {
                     conexion.close();
                 break;
             case 6:
-                int idclas1 = Integer.parseInt(JOptionPane.showInputDialog(null," ingrese ID de id_clase_FK a modificar"));
+                String idclas1 = JOptionPane.showInputDialog(null," ingrese ID de id_clase_FK a modificar");
                 int idclas2 = Integer.parseInt(JOptionPane.showInputDialog(null," ingrese nueva id_clase_FK"));
                 
                     sql="UPDATE ARTICULO "+
-                    "SET ID_CLASE_FK = '"+idclas1+"'"+
-                    "WHERE ID_ARTICULO = '"+idclas2+"'";
+                    "SET ID_CLASE_FK = '"+idclas2+"'"+
+                    "WHERE ID_ARTICULO = '"+idclas1+"'";
                     sentencia.executeUpdate(sql);
                     sentencia.close();
                     conexion.close();
@@ -392,6 +392,7 @@ public class Gestion {
                     sentencia.executeUpdate(sql);
                     sentencia.close();
                     conexion.close();
+                    break;
                 
             case 3:   
                 int ano1 = Integer.parseInt(JOptionPane.showInputDialog(null," ingreseID de año a modificar"));
@@ -408,7 +409,6 @@ public class Gestion {
     }catch(ClassNotFoundException | SQLException e){
         JOptionPane.showMessageDialog(null,"Error!! "+e.getMessage());
     }
-      JOptionPane.showMessageDialog(null,"Registro actualizado con exito¡");
 }
       public void deleteDatosTabla3(){
        try{
