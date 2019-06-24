@@ -29,7 +29,7 @@ public class Logueo extends javax.swing.JFrame {
      */
     public Logueo() {
         initComponents();
-        setIconImage(new ImageIcon(getClass().getResource("../imagenes/icono.png")).getImage());
+        setIconImage(new ImageIcon(getClass().getResource("/Imagenes/icono.png")).getImage());
         this.setResizable(false);
         this.setLocationRelativeTo(null);
     }
@@ -108,7 +108,7 @@ public class Logueo extends javax.swing.JFrame {
             panel.setVisible(true);
             dispose();
         }else{
-            JOptionPane.showMessageDialog(null,"Usuario o contraseña ingresada no es correcto");
+            JOptionPane.showMessageDialog(null,"Usuario o contraseña ingresados no es correcto");
         }
         
     }//GEN-LAST:event_btningresarMouseClicked

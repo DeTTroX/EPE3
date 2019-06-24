@@ -17,7 +17,7 @@ public class updatoNacion extends javax.swing.JFrame {
         initComponents();
         configurarRBNacion();
         g=new Gestion();
-        setIconImage(new ImageIcon(getClass().getResource("../imagenes/icono.png")).getImage());
+        setIconImage(new ImageIcon(getClass().getResource("/Imagenes/icono.png")).getImage());
         this.setResizable(false);
         this.setLocationRelativeTo(null);
     }

@@ -28,7 +28,7 @@ public class Quienes extends javax.swing.JFrame {
      */
     public Quienes() {
         initComponents();
-        setIconImage(new ImageIcon(getClass().getResource("../imagenes/icono.png")).getImage());
+        setIconImage(new ImageIcon(getClass().getResource("/Imagenes/icono.png")).getImage());
         this.setResizable(false);
         this.setLocationRelativeTo(null);
     }
